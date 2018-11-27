@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title>scrollpup.js</title>
+		<script src="scrollpup.js"></script>
+
+		<script type="text/javascript">
+			//window.addEventListener('load', main, false);
+			//window.addEventListener('DOMContentLoaded', main, false);
+		</script>
+		<style>
+
+		html{height:100%;}
+		body{height:300%;}
+
+		.heading{
+			font-size:50px;
+		}
+
+		.small{
+			color:#b2bec3;
+			background-color:black;
+			padding-left:10px;
+			padding-right:10px;
+		}
+
+		.code{
+
+			border-radius: 5px;
+			padding:20px;
+			top:10px;
+			margin-top:1000px;
+			background-color:#dfe6e9;
+			line-height: 100px;
+		}
+
+		body{
+			font:14px/1.5 Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+		}
+
+		</style>
+	</head>
+
+	<body>
+		<!--<div style="height:10px; width:50%; position:fixed; margin:0; background-color:red;""></div> -->
+		<div id="content" style="margin-top:150px;">
+			<center>
+				<span class="heading" >scrollpup.js</span><br>
+				<span class="randomtext">Shows scroll progress. Scroll this page downwards and see scrollpup in action.</span><br>
+				<span class="small">scrollpup.js is Responsive and written in pure javascript and it weights around <strong>1.3 kb</strong></span><br>
+				<span class="code">window.onscroll = function(){scrollpup(document);}</span>
+				<div>
+				<iframe src="https://ghbtns.com/github-btn.html?user=flouthoc&type=follow&count=false" frameborder="0" scrolling="0" width="120px" height="20px"></iframe> <iframe src="https://ghbtns.com/github-btn.html?user=flouthoc&repo=scrollpup.js&type=watch&count=false" frameborder="0" scrolling="0" width="50px" height="20px"></iframe>
+				</div>
+			</center>
+
+		</div>
+	</body>
+	<script type="text/javascript">
+		window.onload = function(){
+			document.getElementsByTagName('body').style.height = "100%";
+			document.getElementsByTagName('body').style.width = "100%";
+		}
+		window.onscroll = function(){scrollpup(document);}
+		//main(document);
+		//window.addEventListener('DOMContentLoaded', main, false);
+	</script>
+</html>
