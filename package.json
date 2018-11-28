@@ -1,0 +1,24 @@
+{
+  "name": "scrollpup",
+  "version": "0.0.1",
+  "main": "dist/scrollpup.js",
+  "min": "dist/scrollpup.min.js",
+  "scripts": {
+    "start": "run-p dev serve",
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "serve": "serve"
+  },
+  "author": "flouthoc",
+  "license": "MIT",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "rollup": "^0.67.3",
+    "rollup-plugin-buble": "^0.19.4",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-uglify-es": "0.0.1",
+    "serve": "^10.1.1"
+  },
+  "dependencies": {}
+}
