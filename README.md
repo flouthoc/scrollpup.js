@@ -1,6 +1,6 @@
 [![GitHub issues](https://img.shields.io/github/issues/flouthoc/scrollpup.js.svg)](https://github.com/flouthoc/scrollpup.js/issues)
-[![GitHub issues](https://img.shields.io/github/issues/flouthoc/scrollpup.js.svg)](https://github.com/flouthoc/scrollpup.js/issues)
-[![GitHub issues](https://img.shields.io/github/issues/flouthoc/scrollpup.js.svg)](https://github.com/flouthoc/scrollpup.js/issues)
+[![GitHub forks](https://img.shields.io/github/forks/flouthoc/scrollpup.js.svg)](https://github.com/flouthoc/scrollpup.js/network)
+[![GitHub stars](https://img.shields.io/github/stars/flouthoc/scrollpup.js.svg)](https://github.com/flouthoc/scrollpup.js/stargazers)
 [![GitHub license](https://img.shields.io/github/license/flouthoc/scrollpup.js.svg)](https://github.com/flouthoc/scrollpup.js/blob/master/LICENSE)
 
 # scrollpup.js
