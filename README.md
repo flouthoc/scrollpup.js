@@ -1,16 +1,37 @@
+[![GitHub issues](https://img.shields.io/github/issues/flouthoc/scrollpup.js.svg)](https://github.com/flouthoc/scrollpup.js/issues)
+[![GitHub forks](https://img.shields.io/github/forks/flouthoc/scrollpup.js.svg)](https://github.com/flouthoc/scrollpup.js/network)
+[![GitHub stars](https://img.shields.io/github/stars/flouthoc/scrollpup.js.svg)](https://github.com/flouthoc/scrollpup.js/stargazers)
+[![GitHub license](https://img.shields.io/github/license/flouthoc/scrollpup.js.svg)](https://github.com/flouthoc/scrollpup.js/blob/master/LICENSE)
+
 # scrollpup.js
-Minimal beautiful bar to show scroll progress. Pure Javascript Plugin. MIT
+- :tada: 0 dependencies, `~1kb`
+- :zap: Pure Javascript Plugin
+- :innocent: MIT License
 
 ### Demo
-https://flouthoc.github.io/scrollpup.js/
+[See demo](https://flouthoc.github.io/scrollpup.js/)
+
+### Setup
+```js
+$ npm i --save scrollpup
+```
 
 ### Usage
 
 ```js
+import scrollpup from 'scrollpup'
+
 scrollpup({
-  background: 'linear-gradient(to right, #ff416c, #ff4b2b)'
+  background: 'linear-gradient(to right, #ff416c, #ff4b2b)',
+  height: '15px'
 })
 ```
 
 #### Note
 Please feel free to create Pull Requests
+
+#### Contributors
+- [ImLinus](https://github.com/imlinus/)
+
+#### License
+Licensed under the [MIT License](https://github.com/flouthoc/scrollpup.js/blob/master/LICENSE) by [Flouthoc](https://github.com/flouthoc/)
